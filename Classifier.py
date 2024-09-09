@@ -26,5 +26,3 @@ class Classifier():
             
             class_predictions[cl] = product * self.class_prob[cl]
         return max(class_predictions, key=class_predictions.get)
-
-

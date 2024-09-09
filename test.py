@@ -68,6 +68,7 @@ testing_instance = Testing(classifier=classifier, testing_set=tdf, target="Sever
 
 testing_instance.run_test()
 
+
 print(testing_instance.get_precision())
 print(testing_instance.get_recall())
 
